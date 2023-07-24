@@ -28,7 +28,7 @@
     /*モバイル*/
     #top img{
       object-fit: cover;
-      height: 800px;
+      height: 600px;
     }
     #top ul{
       position: absolute;
@@ -43,7 +43,7 @@
     #top ul li a{
       color: #ffffff;
       text-decoration: none;
-      font-size: 5px;
+      font-size: 10px;
     }
     #top h3{
       position: absolute;
@@ -103,10 +103,7 @@
  
   
   /*works*/
-  #works{
-  margin-top: 1100px;
-  position: relative;
-  }
+
   #works h3{
   position: absolute;
   right: 10%;
@@ -287,10 +284,6 @@ letter-spacing: 2px;
 
 
 /*works*/
-#works{
-margin-top: 1100px;
-position: relative;
-}
 #works h3{
 position: absolute;
 right: 10%;
@@ -331,7 +324,7 @@ right: 40%;
 
 /*skill*/
 #skill{
-margin-top: 900px;
+margin-top: 1500px;
 position: relative;
 }
 #skill h3{
@@ -389,6 +382,10 @@ font-family: 'EB Garamond', serif;
 
 
 /*works*/
+#works{
+  margin-top: 1400px;
+  position: relative;
+  }
 #works section  .a{
   display: inline-block;
 }
@@ -403,12 +400,12 @@ font-family: 'EB Garamond', serif;
 }
 /*skill*/
 #skill{
-  margin-top: 650px;
+  margin-top: 900px;
   position: relative;
   }
 /*contact*/
 #contact{
-margin-top: 500px;
+margin-top: 600px;
 margin-bottom: 300px;
 }
 #contact ul .insta svg{
