@@ -65,7 +65,7 @@
   }
   #about h3{
   font-weight: normal;
-  font-size: 30px;
+  font-size: 25px;
   letter-spacing: 10px;
   position: absolute;
   left: 20%;
@@ -76,7 +76,7 @@
   }
   #about img{
   position: absolute;
-  right: 3%;
+  right: 1%;
   object-fit: cover;
   width: 250px;
   height: 150px;
