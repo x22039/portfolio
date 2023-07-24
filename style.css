@@ -28,7 +28,7 @@
     /*モバイル*/
     #top img{
       object-fit: cover;
-      height: 670px;
+      height: 680px;
     }
     #top ul{
       position: absolute;
@@ -49,7 +49,7 @@
       position: absolute;
       text-align: center;
       font-weight: normal;
-      font-size: 35px;
+      font-size: 32px;
       font-family: 'EB Garamond', serif;
       color: #000;
       -webkit-text-stroke: 1px #ffffff; /* webkitのベンダープレフィックス */
