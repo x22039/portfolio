@@ -1,0 +1,418 @@
+* {
+    box-sizing: border-box;
+  }
+  *::before, *::after {
+    box-sizing: inherit;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  #top>h1 {
+    text-align: center;
+    font-size: 5rem;
+    text-shadow: 1px 1px 3px #ffffff, -1px -1px 0px #ebebeb;
+    position: absolute;
+  }
+  img {
+	max-width: 100%;
+	height: auto;
+  }
+  :root { /* htmlを指定した場合と同じような意味合いです */
+    /* 書体の設定 */
+    font-family: 'EB Garamond', serif;
+  
+    
+  }
+  @media (max-width:480px) {
+    /*モバイル*/
+    #top img{
+      object-fit: cover;
+      height: 800px;
+      width: 100%;
+    }
+    #top ul{
+      position: absolute;
+      right: 3%;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      margin-top: 16px;
+      top: 5px;
+    }
+    #top ul li a{
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 5px;
+    }
+    #top h3{
+      position: absolute;
+      text-align: center;
+      font-weight: normal;
+      font-size: 40px;
+      font-family: 'EB Garamond', serif;
+      color: #000;
+      -webkit-text-stroke: 1px #ffffff; /* webkitのベンダープレフィックス */
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      letter-spacing: 10px;
+    }
+    /*about*/
+  #about{
+  margin-top: 500px;
+  position: relative;
+  }
+  #about h3{
+  font-weight: normal;
+  font-size: 30px;
+  letter-spacing: 10px;
+  position: absolute;
+  left: 16%;
+  transform: translate(-50%,-50%);
+  }
+  #about .image {
+  position: relative;
+  }
+  #about img{
+  position: absolute;
+  right: 3%;
+  object-fit: cover;
+  width: 200px;
+  height: 150px;
+  z-index: -1;
+  }
+  #about .image .box{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-27%, 40%);
+  display: block;
+  width: 250px;
+  height: 120px;
+  background:rgba(190, 190, 190, 0.5);
+  }
+  #about .image p{
+  position: absolute;
+  font-size: 12px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-70%);
+  letter-spacing: 2px;
+  }
+    /*skill*/
+#skill{
+  margin-top: 900px;
+  position: relative;
+  }
+  #skill h3{
+  text-align: center;
+  font-weight: normal;
+  font-size: 60px;
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 20px;
+  }
+  #skill .photo p {
+  position: absolute;
+  left: 25%;
+  bottom: 100%;
+  font-weight: normal;
+  font-size: 40px;
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 2px;
+  }
+  #skill .html p{
+  position: absolute;
+  left: 65%;
+  bottom: 90%;
+  font-weight: normal;
+  font-size: 40px;
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 2px;
+  }
+  #skill .css p{
+  position: absolute;
+  left: 47%;
+  top: 150%;
+  font-weight: normal;
+  font-size: 50px;
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 2px;
+  }
+  /*works*/
+#works{
+  margin-top: 1100px;
+  position: relative;
+  }
+  #works h3{
+  position: absolute;
+  right: 10%;
+  top: 140%;
+  font-weight: normal;
+  font-size: 60px;
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 10px;
+  
+  }
+  video{
+  object-fit: cover;
+  position: relative;
+  left: 5%;
+  }
+  #works section{
+  display: flex;
+  position: absolute;
+  right: 3%;
+  }
+  #works img{
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 60%;
+  }
+  #works section .a img{
+  position: relative;
+  bottom: -60px;
+  right: 50%;
+  }
+  #works section .b img{
+  position: relative;
+  bottom: 20rem;
+  right: 40%;
+  }
+  
+  /*skill*/
+  #skill{
+  margin-top: 900px;
+  position: relative;
+  }
+  #skill h3{
+  text-align: center;
+  font-weight: normal;
+  font-size: 60px;
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 20px;
+  }
+  #skill .photo p {
+  position: absolute;
+  left: 25%;
+  bottom: 100%;
+  font-weight: normal;
+  font-size: 40px;
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 2px;
+  }
+  #skill .html p{
+  position: absolute;
+  left: 65%;
+  bottom: 90%;
+  font-weight: normal;
+  font-size: 40px;
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 2px;
+  }
+  #skill .css p{
+  position: absolute;
+  left: 47%;
+  top: 150%;
+  font-weight: normal;
+  font-size: 50px;
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 2px;
+  } 
+}
+
+
+
+
+
+@media (min-width:481px) {
+    /*top*/
+#top img{
+  object-fit: cover;
+  height: 820px;
+}
+#top ul{
+  position: absolute;
+  right: 3%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 16px;
+  top: 5px;
+}
+#top ul li a{
+  color: #ffffff;
+  text-decoration: none;
+}
+#top h3{
+  position: absolute;
+  text-align: center;
+  font-weight: normal;
+  font-size: 70px;
+  font-family: 'EB Garamond', serif;
+  color: #000;
+  -webkit-text-stroke: 1px #ffffff; /* webkitのベンダープレフィックス */
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 10px;
+}
+
+/*about*/
+#about{
+margin-top: 500px;
+position: relative;
+}
+#about h3{
+font-weight: normal;
+font-size: 60px;
+letter-spacing: 10px;
+position: absolute;
+left: 15%;
+transform: translate(-50%,-50%);
+}
+#about .image {
+position: relative;
+}
+#about img{
+position: absolute;
+right: 3%;
+object-fit: cover;
+width: 700px;
+height: 400px;
+z-index: -1;
+}
+#about .image .box{
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(15%, 70%);
+display: block;
+width: 500px;
+height: 200px;
+background:rgba(190, 190, 190, 0.5);
+}
+#about .image p{
+position: absolute;
+font-size: 25px;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-70%);
+letter-spacing: 2px;
+}
+
+/*works*/
+#works{
+margin-top: 1100px;
+position: relative;
+}
+#works h3{
+position: absolute;
+right: 10%;
+top: 140%;
+font-weight: normal;
+font-size: 60px;
+font-family: 'EB Garamond', serif;
+letter-spacing: 10px;
+
+}
+video{
+object-fit: cover;
+position: relative;
+left: 5%;
+}
+#works section{
+display: flex;
+position: absolute;
+right: 3%;
+}
+#works img{
+object-fit: cover;
+width: 300px;
+height: 300px;
+border-radius: 60%;
+}
+#works section .a img{
+position: relative;
+bottom: -60px;
+right: 50%;
+}
+#works section .b img{
+position: relative;
+bottom: 20rem;
+right: 40%;
+}
+
+/*skill*/
+#skill{
+margin-top: 900px;
+position: relative;
+}
+#skill h3{
+text-align: center;
+font-weight: normal;
+font-size: 60px;
+font-family: 'EB Garamond', serif;
+letter-spacing: 20px;
+}
+#skill .photo p {
+position: absolute;
+left: 25%;
+bottom: 100%;
+font-weight: normal;
+font-size: 40px;
+font-family: 'EB Garamond', serif;
+letter-spacing: 2px;
+}
+#skill .html p{
+position: absolute;
+left: 65%;
+bottom: 90%;
+font-weight: normal;
+font-size: 40px;
+font-family: 'EB Garamond', serif;
+letter-spacing: 2px;
+}
+#skill .css p{
+position: absolute;
+left: 47%;
+top: 150%;
+font-weight: normal;
+font-size: 50px;
+font-family: 'EB Garamond', serif;
+letter-spacing: 2px;
+} 
+}
+
+
+/*contact*/
+#contact{
+margin-top: 500px;
+margin-bottom: 300px;
+}
+#contact h3{
+letter-spacing: 20px;
+text-align: center;
+font-weight: normal;
+font-size: 60px;
+font-family: 'EB Garamond', serif;
+}
+#contact ul svg{
+width: 60px;
+height: 60px;
+}
+#contact ul{
+list-style: none;
+display: flex;
+gap: 100px;
+justify-content: center;
+}
+#contact svg{
+fill: #7ac5d8 100%;
+}
+#contact svg:hover{
+fill: #7ac5d8 100%;
+}
