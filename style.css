@@ -29,11 +29,10 @@
     #top img{
       object-fit: cover;
       height: 800px;
-      width: 100%;
     }
     #top ul{
       position: absolute;
-      right: 7%;
+      right: 3%;
       list-style: none;
       display: flex;
       justify-content: center;
@@ -69,7 +68,7 @@
   font-size: 30px;
   letter-spacing: 10px;
   position: absolute;
-  left: 16%;
+  left: 20%;
   transform: translate(-50%,-50%);
   }
   #about .image {
@@ -77,7 +76,7 @@
   }
   #about img{
   position: absolute;
-  right: 6%;
+  right: 3%;
   object-fit: cover;
   width: 250px;
   height: 150px;
@@ -87,7 +86,7 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-27%, 40%);
+  transform: translate(-30%, 40%);
   display: block;
   width: 250px;
   height: 120px;
@@ -121,7 +120,7 @@
   video{
   object-fit: cover;
   position: relative;
-  left: 3%;
+  left: 0;
   }
   #works section{
   display: flex;
@@ -136,16 +135,17 @@
   
   }
   #works section .a img{
-  position: relative;
-  bottom: 0;
-  right: 150%;
-  }
-  #works section .b img{
-  position: absolute;
-  top: -50%;
-  right: 6%;
-  }
+    position: relative;
+    bottom: -60px;
+    right: 50%;
+    }
+    #works section .b img{
+    position: relative;
+    bottom: 7rem;
+    right: 20%;
+    }
   
+    /*skill*/
   #skill h3{
   text-align: center;
   font-weight: normal;
@@ -164,7 +164,7 @@
   }
   #skill .html p{
   position: absolute;
-  left: 60%;
+  left: 65%;
   bottom: 90%;
   font-weight: normal;
   font-size: 25px;
@@ -285,6 +285,7 @@ transform: translate(-50%,-70%);
 letter-spacing: 2px;
 }
 
+
 /*works*/
 #works{
 margin-top: 1100px;
@@ -326,6 +327,7 @@ position: relative;
 bottom: 20rem;
 right: 40%;
 }
+
 
 /*skill*/
 #skill{
@@ -385,6 +387,20 @@ font-family: 'EB Garamond', serif;
   }
 }
 
+
+/*works*/
+#works section  .a{
+  display: inline-block;
+}
+#works section .a img{
+  display: block;
+}
+#works section  .b{
+  display: inline-block;
+}
+#works section .b img{
+  display: block;
+}
 /*skill*/
 #skill{
   margin-top: 650px;
@@ -395,9 +411,16 @@ font-family: 'EB Garamond', serif;
 margin-top: 500px;
 margin-bottom: 300px;
 }
-#contact svg{
-fill: #7ac5d8 100%;
+#contact ul .insta svg{
+  display: inline-block;
+  background: linear-gradient(to right,
+  rgba(247, 207, 0, 0.7),
+  rgba(246, 37, 2, 0.7) 45%,
+  rgba(182, 47, 82, 0.7) 75%,
+  rgba(113, 58, 166, 0.7));
+  border-radius: 3px;
+  fill: #ffffff !important;
 }
-#contact svg:hover{
-fill: #7ac5d8 100%;
+#contact ul .fb svg{
+  fill: #668ad8 !important;
 }
