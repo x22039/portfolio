@@ -55,7 +55,7 @@
       -webkit-text-stroke: 1px #ffffff; /* webkitのベンダープレフィックス */
       top: 40%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(-49%, -50%);
       letter-spacing: 10px;
     }
     /*about*/
@@ -65,7 +65,7 @@
   }
   #about h3{
   font-weight: normal;
-  font-size: 25px;
+  font-size: 30px;
   letter-spacing: 10px;
   position: absolute;
   left: 20%;
@@ -103,46 +103,39 @@
  
   
   /*works*/
-
+  #works{
+    margin-top: 1000px;
+    text-align: center;
+    }
   #works h3{
-  position: absolute;
-  right: 10%;
-  top: 140%;
+  text-align: center;
   font-weight: normal;
   font-size: 30px;
   font-family: 'EB Garamond', serif;
   letter-spacing: 10px;
-  
   }
   video{
   object-fit: cover;
-  position: relative;
-  left: 0;
-  }
-  #works section{
-  display: flex;
-  position: absolute;
-  right: 3%;
+  margin-top: 20px;
   }
   #works img{
   object-fit: cover;
   width: 150px;
   height: 150px;
   border-radius: 60%;
-  
   }
-  #works section .a img{
-    position: relative;
-    bottom: -60px;
-    right: 50%;
-    }
-    #works section .b img{
-    position: relative;
-    bottom: 7rem;
-    right: 20%;
-    }
+  #works section{
+  margin-top: 60px;
+  }
+  #works p{
+    font-size: 25px;
+  }
   
     /*skill*/
+  #skill{
+    margin-top: 500px;
+    position: relative;
+  }
   #skill h3{
   text-align: center;
   font-weight: normal;
@@ -284,49 +277,34 @@ letter-spacing: 2px;
 
 
 /*works*/
+#works{
+  margin-top: 1400px;
+  position: relative;
+  text-align: center;
+  }
+#works p{
+  font-size: 45px;
+}
 #works h3{
-position: absolute;
-right: 10%;
-top: 140%;
-font-weight: normal;
-font-size: 60px;
-font-family: 'EB Garamond', serif;
-letter-spacing: 10px;
-
-}
-video{
-object-fit: cover;
-position: relative;
-left: 5%;
-}
-#works section{
-display: flex;
-position: absolute;
-right: 3%;
-}
-#works img{
-object-fit: cover;
-width: 300px;
-height: 300px;
-border-radius: 60%;
-}
-#works section .a img{
-position: relative;
-bottom: -60px;
-right: 50%;
-}
-#works section .b img{
-position: relative;
-bottom: 20rem;
-right: 40%;
-}
-
+  text-align: center;
+  font-size: 60px; 
+  font-weight: normal;
+  }
+  video{
+  object-fit: cover;
+  margin-top: 30px;
+  }
+  #works img{
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 60%;
+  }
+  #works section{
+  margin-top: 100px;
+  }
 
 /*skill*/
-#skill{
-margin-top: 1500px;
-position: relative;
-}
 #skill h3{
 text-align: center;
 font-weight: normal;
@@ -382,27 +360,13 @@ font-family: 'EB Garamond', serif;
 
 
 /*works*/
-#works{
-  margin-top: 1400px;
-  position: relative;
-  }
-#works section  .a{
-  display: inline-block;
-}
-#works section .a img{
-  display: block;
-}
-#works section  .b{
-  display: inline-block;
-}
-#works section .b img{
-  display: block;
-}
+
+
 /*skill*/
 #skill{
-  margin-top: 900px;
+  margin-top: 500px;
   position: relative;
-  }
+}
 /*contact*/
 #contact{
 margin-top: 600px;
