@@ -55,7 +55,7 @@
       -webkit-text-stroke: 1px #ffffff; /* webkitのベンダープレフィックス */
       top: 40%;
       left: 50%;
-      transform: translate(-49%, -50%);
+      transform: translate(-51%, -50%);
       letter-spacing: 10px;
     }
     /*about*/
@@ -363,6 +363,25 @@ font-size: 60px;
 }
 
 
+#about{
+animation-name: fadeUpAnime;
+animation-duration:0.5s;
+animation-fill-mode:forwards;
+opacity:0;
+}
+
+@keyframes fadeUpAnime{
+  form {
+    opacity: 0;
+  transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+  transform: translateY(0);
+  }
+}
+
 /*works*/
 
 
@@ -374,7 +393,7 @@ font-size: 60px;
 /*contact*/
 #contact{
 margin-top: 600px;
-margin-bottom: 1000px;
+margin-bottom: 900px;
 }
 #contact ul .insta svg{
   
