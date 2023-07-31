@@ -68,7 +68,7 @@
   font-size: 30px;
   letter-spacing: 10px;
   position: absolute;
-  left: 15%;
+  left: 20%;
   transform: translate(-50%,-50%);
   }
   #about .image {
@@ -363,24 +363,6 @@ font-size: 60px;
 }
 
 
-#about{
-animation-name: fadeUpAnime;
-animation-duration:0.5s;
-animation-fill-mode:forwards;
-opacity:0;
-}
-
-@keyframes fadeUpAnime{
-  form {
-    opacity: 0;
-  transform: translateY(100px);
-  }
-
-  to {
-    opacity: 1;
-  transform: translateY(0);
-  }
-}
 
 /*works*/
 
