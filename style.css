@@ -68,7 +68,7 @@
   font-size: 30px;
   letter-spacing: 10px;
   position: absolute;
-  left: 20%;
+  left: 15%;
   transform: translate(-50%,-50%);
   }
   #about .image {
@@ -145,7 +145,7 @@
   }
   #skill .photo p {
   position: absolute;
-  left: 15%;
+  left: 12%;
   bottom: 100%;
   font-weight: normal;
   font-size: 25px;
@@ -173,9 +173,10 @@
 
   /*contact*/
   #contact{
-    position: relative;
+    
   }
   #contact h3{
+  position: relative;
   letter-spacing: 20px;
   text-align: center;
   font-weight: normal;
@@ -184,14 +185,14 @@
   #contact ul svg{
     width: 30px;
     height: 30px;
-    }
-    #contact ul{
+  }
+  #contact ul{
+    position: absolute;
     list-style: none;
     display: flex;
     gap: 40px;
-    position: absolute;
     right: 40%;
-    }
+  }
 }
 
 
@@ -339,23 +340,26 @@ font-size: 50px;
 font-family: 'EB Garamond', serif;
 letter-spacing: 2px;
 } 
+
+/*contact*/
 #contact h3{
+position: relative;
 letter-spacing: 20px;
 text-align: center;
 font-weight: normal;
 font-size: 60px;
-font-family: 'EB Garamond', serif;
 }
 #contact ul svg{
   width: 60px;
   height: 60px;
-  }
-  #contact ul{
+}
+#contact ul{
+  position: absolute;
   list-style: none;
   display: flex;
   gap: 100px;
-  justify-content: center;
-  }
+  right: 43%;
+}
 }
 
 
@@ -370,17 +374,11 @@ font-family: 'EB Garamond', serif;
 /*contact*/
 #contact{
 margin-top: 600px;
-margin-bottom: 300px;
+margin-bottom: 1000px;
 }
 #contact ul .insta svg{
-  display: inline-block;
-  background: linear-gradient(to right,
-  rgba(247, 207, 0, 0.7),
-  rgba(246, 37, 2, 0.7) 45%,
-  rgba(182, 47, 82, 0.7) 75%,
-  rgba(113, 58, 166, 0.7));
-  border-radius: 3px;
-  fill: #ffffff !important;
+  
+  fill: black !important;
 }
 #contact ul .fb svg{
   fill: #668ad8 !important;
