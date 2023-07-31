@@ -55,7 +55,7 @@
       -webkit-text-stroke: 1px #ffffff; /* webkitのベンダープレフィックス */
       top: 40%;
       left: 50%;
-      transform: translate(-51%, -50%);
+      transform: translate(-50%, -50%);
       letter-spacing: 10px;
     }
     /*about*/
@@ -69,7 +69,6 @@
   letter-spacing: 10px;
   position: absolute;
   left: 20%;
-  transform: translate(-50%,-50%);
   }
   #about .image {
   position: relative;
